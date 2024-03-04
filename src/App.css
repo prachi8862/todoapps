@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(44, 48, 48);
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box{
+  height: 600px;
+  width: 550px;
+  background-color: rgb(93, 97, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 20px  red;
+  border-radius: 20px;
+}
+.center-container{
+  height: 500px;
+  width: 350px;
+}
+.app-heading{
+  padding: 4px;
+  color: rgb(160, 125, 216);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  
+  
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+
+}
+.input-box{
+  border-radius: 20px;
+ width: 70%;
+ height: 50px;
+ margin-left: 10px;
+ border: 1px solid brown;
+ padding-left: 10px;
+ box-shadow: 7px 10px 20px red;
+ outline: none;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: large;
+}
+.button{
+  font-size: larger;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(235, 111, 80);
+  color: antiquewhite;
+  border: none;
+  font-weight: bolder;
+  margin-left: 10px;
+  cursor: pointer;
+  box-shadow: 3px 6px 10px red;
+  transition: 0.3s;
+
+}
+.button:active{
+  box-shadow: none;
+}
+/* ::placeholder{
+  font-size:20px ;
+} */
+.list-containter{
+  display: flex;
+  align-self:center;
+  margin-top: 6px;
+}
+.list-item{
+  border: 2px solid red;
+  background-color: rgb(236, 185, 185);
+ margin-top: 20px;
+ width: 100%;
+ height: 40px;
+ border-radius: 7px;
+ list-style: none;
+ font-size: 20px;
+ padding: 3px;
+padding-left: 5px;
+font-size: 25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-top: 12px;
+list-style-type: none;
+color: rgb(15, 15, 12);
+display: flex;
+align-items: center;
+position: relative;
+margin-top: 10px;
+box-shadow: 3px 3px 7px red;
+
+ 
+}
+.icon{
+ position: absolute;
+ right: 10px;
+}
+.icon i{
+  margin: 4px;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.icon i:hover{
+  transform: scale(1.2);
+}
+.icon-delete:hover{
+  color: red;
+}
+
