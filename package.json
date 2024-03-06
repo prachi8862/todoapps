@@ -1,6 +1,5 @@
 {
-  "homepage": "http://prachi8862.github.io/",
-  "name": "todoapp",
+ "name": "todoapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
